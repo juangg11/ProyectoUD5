@@ -15,6 +15,9 @@ throw new ArithmeticException();
 }
 return a / b;
 }
+public static double media(double a, double b) {
+    return (a + b) / 2;
+}
 public static double potencia(double a, double b) {
     return Math.pow(a, b);
 }
