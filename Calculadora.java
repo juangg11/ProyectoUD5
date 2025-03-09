@@ -15,11 +15,8 @@ throw new ArithmeticException();
 }
 return a / b;
 }
-public static double media(double a, double b) {
-    return (a + b) / 2;
-}
-public static double potencia(double a, double b) {
-    return Math.pow(a, b);
+public static double multiplicacionde3(double a, double b, double c) {
+    return (a * b * c);
 }
 public static double calculadora(double a, double b, int opcion) {
 switch (opcion) {
