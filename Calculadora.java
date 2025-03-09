@@ -15,6 +15,9 @@ throw new ArithmeticException();
 }
 return a / b;
 }
+public static double potencia(double a, double b) {
+    return Math.pow(a, b);
+}
 public static double calculadora(double a, double b, int opcion) {
 switch (opcion) {
 case 1: return sumar(a, b);
